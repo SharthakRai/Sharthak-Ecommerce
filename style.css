@@ -20,12 +20,14 @@ nav {
   justify-content: space-between;
 }
 
+/* search bar design, position */
 .search {
   display: flex;
   align-items: center;
   background-color: gray;
   padding: 10px 20px;
   border-radius: 10px;
+  position: relative;
 }
 
 .searchInput {
@@ -37,9 +39,10 @@ nav {
   color: lightgray;
 }
 
-.limitedOffer {
-  font-size: 20px;
-  border-bottom: 2px solid green;
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  border-bottom: 2px solid teal;
   cursor: pointer;
 }
 
@@ -57,6 +60,7 @@ nav {
 }
 
 .slider {
+   /* css path generator tool used for shape of the background */
   background: url("https://images.unsplash.com/photo-1612646561843-f7641ae5a4ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden;
@@ -76,6 +80,7 @@ nav {
   position: relative;
 }
 
+/* colourful circular background behind the product */
 .sliderBg {
   width: 750px;
   height: 750px;
@@ -87,6 +92,7 @@ nav {
   z-index: 1;
 }
 
+/* product title: font, position, size */
 .sliderTitle {
   position: absolute;
   top: 10%;
@@ -98,6 +104,7 @@ nav {
   z-index: 1;
 }
 
+/* Price position, font, colour */
 .sliderPrice {
   position: absolute;
   top: 10%;
@@ -111,6 +118,7 @@ nav {
   z-index: 1;
 }
 
+/* buy button font, designa, position */
 .buyButton {
   position: absolute;
   top: 50%;
@@ -123,12 +131,13 @@ nav {
   z-index: 1;
   cursor: pointer;
 }
-
+/* buy button hover effect */
 .buyButton:hover {
   background-color: white;
   color: black;
 }
 
+/* slider product children 1 to 5 | different bg colours */
 .sliderItem:nth-child(1) .sliderBg {
   background-color: teal;
 }
