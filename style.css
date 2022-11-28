@@ -137,7 +137,7 @@ nav {
   color: black;
 }
 
-/* slider product children 1 to 5 | different bg colours */
+/* sliderItem class product nth-child select: 1 to 5 | different bg colours */
 .sliderItem:nth-child(1) .sliderBg {
   background-color: teal;
 }
@@ -154,6 +154,7 @@ nav {
   background-color: rgb(124, 115, 80);
 }
 
+/* sliderItem class product nth-child select: different price */
 .sliderItem:nth-child(1) .sliderPrice {
   color: #369e62;
 }
