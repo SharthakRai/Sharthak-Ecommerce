@@ -69,7 +69,7 @@ nav {
 .sliderWrapper {
   display: flex;
   width: 500vw;
-  transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out; /* slider trasition animation duration */
 }
 
 .sliderItem {
@@ -154,23 +154,8 @@ nav {
   background-color: rgb(124, 115, 80);
 }
 
-/* sliderItem class product nth-child select: different price */
-.sliderItem:nth-child(1) .sliderPrice {
-  color: #369e62;
-}
-.sliderItem:nth-child(2) .sliderPrice {
-  color: white;
-}
-.sliderItem:nth-child(3) .sliderPrice {
-  color: teal;
-}
-.sliderItem:nth-child(4) .sliderPrice {
-  color: cornflowerblue;
-}
-.sliderItem:nth-child(5) .sliderPrice {
-  color: cornsilk;
-}
 
+/* features section: position, design, size */
 .features {
   display: flex;
   align-items: center;
@@ -202,12 +187,6 @@ nav {
   height: 100px;
 }
 
-.product {
-  height: 100vh;
-  background-color: whitesmoke;
-  position: relative;
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
-}
 
 .payment {
   width: 500px;
@@ -459,6 +438,7 @@ footer {
   font-size: 14px;
 }
 
+/* Responsive Design with Media Queries */
 @media screen and (max-width:480px) {
   nav{
     padding: 20px;
