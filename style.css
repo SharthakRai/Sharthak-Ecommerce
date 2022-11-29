@@ -46,6 +46,14 @@ nav {
   cursor: pointer;
 }
 
+.creator {
+  font-size: 20px;
+  font-weight: bold;
+  color: offwhite;
+  border-bottom: 1px solid teal;
+  cursor: pointer;
+}
+
 .navBottom {
   display: flex;
   align-items: center;
@@ -56,6 +64,7 @@ nav {
   margin-right: 50px;
   cursor: pointer;
   color: lightgray;
+  font-size: 25px;
   font-weight: 400;
 }
 
@@ -99,6 +108,7 @@ nav {
   right: 10%;
   font-size: 60px;
   font-weight: 900;
+  text-shadow: teal 5px 5px 15px;
   text-align: center;
   color: white;
   z-index: 1;
